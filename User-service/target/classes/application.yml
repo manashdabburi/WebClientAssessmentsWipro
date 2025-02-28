@@ -1,0 +1,13 @@
+server:
+  port: 9097
+spring:
+  application:
+    name: User-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/users
+    username: root
+    password: manash1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: false
